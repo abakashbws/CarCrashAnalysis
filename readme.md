@@ -18,7 +18,6 @@ bash
 git clone https://github.com/abakashbws/car-crash-analysis.git
 
 <!-- Install the required dependencies: -->
-pip install -r requirements.txt
 Set up Spark (if not already installed) and configure it according to your environment.
 
 Make sure you have the necessary data files and update the configuration file (config/config.json) with the correct paths to your data files.
