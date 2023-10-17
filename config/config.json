@@ -1,0 +1,39 @@
+{
+  "data": {
+    "path": "./data",
+    "files": {
+      "driver": "Primary_Person_use.csv",
+      "vehicle": "Units_use.csv",
+      "charges": "Charges_use.csv",
+      "damages": "Damages_use.csv",
+      "endorsements": "Endorse_use.csv",
+      "restrictions": "Restrict_use.csv"
+    }
+  },
+  "analytics": {
+    "accidents_by_gender": {
+      "gender": "MALE" 
+    },
+    "two_wheelers_booked_for_crashes": {
+      "vehicle_type": ["MOTORCYCLE", "POLICE MOTORCYCLE"]
+    },
+    "state_with_highest_accidents": {
+      "gender": "FEMALE"
+    },
+    "top_vehicle_ids_contributing_to_injuries": {
+      "top_n_vals": 5 
+    },
+    "zip_codes_with_high_alcohol_contributions": {
+      "top_n_zip_codes": 5, 
+      "alcohol_result": "Positive"
+    },
+    "top_ethnic_user_group_by_body_style": {
+    },
+    "no_damaged_property_with_high_damage_level_and_insurance": {
+      "damage_level_threshold": 4
+    },
+    "top_vehicle_makes_for_speeding_offenses": {
+      "top_n_makes": 5
+    }
+  }
+}
