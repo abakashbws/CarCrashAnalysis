@@ -34,10 +34,17 @@ Project Structure
 The project is organized as follows:
 
 Car_crash: The main package containing the analysis and utility modules.
+
 config: Configuration files, including config.json for specifying data paths.
+
 data: Data files used for analysis.
+
 main.py: The main entry point for running the analysis.
+
 spark_setup.py: Configuration and setup for Spark.
+
 utils.py: Utility functions used for data validation and JSON parsing.
+
 Car_crash/analysis.py: Contains the analytics classes and methods.
+
 Car_crash/__init__.py: Initializes the package and sets up logging.
